@@ -1,0 +1,41 @@
+{
+    "mainPageTitle" : "Главная страница - Блог Hipsum Blog",
+    "postOnMainPage" : [
+        {
+            "title" : "Post 1",        
+            "info" : "DECEMBER 26, 2019 — 5 COMMENTS",
+            "img" : "img-01.jpg",
+            "text" : "Austin DIY sriracha polaroid sartorial la croix. Air plant vexillologist tilde listicle try-hard tousled. Drinking vinegar flexitarian tumblr, chia aesthetic lyft yuccie. Vegan jean shorts swag, single-origin coffee beard quinoa street art activated charcoal chartreuse whatever.",
+            "link" : "#"
+        },
+        {
+            "title" : "Post 2",        
+            "info" : "DECEMBER 26, 2019 — 5 COMMENTS",
+            "img" : "img-02.jpg",
+            "text" : "Air plant vexillologist tilde listicle try-hard tousled. Drinking vinegar flexitarian tumblr, chia aesthetic lyft yuccie. Vegan jean shorts swag, single-origin coffee beard quinoa street art activated charcoal chartreuse whatever.",
+            "link" : "#"
+        },
+        {
+            "title" : "Post 3",        
+            "info" : "DECEMBER 26, 2019 — 5 COMMENTS",
+            "img" : "img-03.jpg",
+            "text" : "Austin DIY sriracha polaroid sartorial la croix. Air plant vexillologist tilde listicle try-hard tousled. Drinking vinegar flexitarian tumblr, chia aesthetic lyft yuccie.",
+            "link" : "#"
+        },
+        {
+            "title" : "Post 4",        
+            "info" : "DECEMBER 26, 2019 — 5 COMMENTS",
+            "img" : "img-04.jpg",
+            "text" : "Austin DIY sriracha polaroid sartorial la croix. Air plant vexillologist tilde listicle try-hard tousled. Vegan jean shorts swag, single-origin coffee beard quinoa street art activated charcoal chartreuse whatever.",
+            "link" : "#"
+        },
+        {
+            "title" : "Post 5",        
+            "info" : "DECEMBER 26, 2019 — 5 COMMENTS",
+            "img" : "img-05.jpg",
+            "text" : "Drinking vinegar flexitarian tumblr, chia aesthetic lyft yuccie. Vegan jean shorts swag, single-origin coffee beard quinoa street art activated charcoal chartreuse whatever.",
+            "link" : "#"
+        }
+            
+    ]
+}

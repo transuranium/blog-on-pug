@@ -1,0 +1,33 @@
+{
+    "footerNavFirst" : [
+            {
+                "title": "Search", 
+                "link": "#" 
+            }, 
+            {
+                "title": "Contact Information", 
+                "link": "#"
+            } 
+        ],
+    "footerNavSecond" : [
+            {
+                "title": "Shopping cart", 
+                "link": "#" 
+            }, 
+            {
+                "title": "Contact information", 
+                "link": "#"
+            } 
+        ],
+    "footerNavThird" : [
+            {
+                "title": "Privacy Policy", 
+                "link": "#" 
+            }, 
+            {
+                "title": "Terms of Use", 
+                "link": "#"
+            } 
+        ]
+}
+

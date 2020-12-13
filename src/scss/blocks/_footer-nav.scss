@@ -1,0 +1,23 @@
+.footer-nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: #8e9399;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+}
+.footer-nav__item {
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+}
+.footer-nav__link {
+    color: #8e9399;
+    text-decoration: none;
+
+    &:hover {
+    color: #8e9399;
+    text-decoration: underline; 
+    }
+}

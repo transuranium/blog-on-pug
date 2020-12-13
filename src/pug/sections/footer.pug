@@ -1,0 +1,23 @@
+//- - const footerNavFirst = [{ title: "Latest Posts", link: "#" }, {title: "Popular Posts", link: "#"}, ];
+//- - const footerNavSecond = [{ title: "Search", link: "#" }, {title: "Contact Information", link: "#"}, ];
+//- - const footerNavThird = [{ title: "Privacy Policy", link: "#" }, {title: "Terms of Use", link: "#"}, ];
+
+
+//- - footerNav
+
+footer
+    .footer
+        .container
+            .row
+                .col-3
+                    +footer-nav(footerNav.footerNavFirst)
+                .col-3
+                    +footer-nav(footerNav.footerNavSecond)
+                .col-3
+                    +footer-nav(footerNav.footerNavThird)
+
+                .col-3
+                    include ./social-icons.pug
+    .copyright
+        .container
+            .copyright__text © Copyright 2020. All rights reserved.

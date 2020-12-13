@@ -1,0 +1,25 @@
+extends ./../layouts/main.pug
+
+block variables
+    //- - const title = "Главная";
+    - const title = jsonData.mainPageTitle;
+
+block content
+    include ./../sections/header.pug
+
+    .container.mainpage-contant
+        .row
+            .col-9
+                each post in jsonData.postOnMainPage 
+                    +post(post.title, post.info, post.img, post.link)
+                        p #{post.text}
+ 
+                include ./../sections/pagination.pug
+
+            .col-3 
+
+                    include ./../sections/recent-posts.pug
+                    include ./../sections/popular-posts.pug
+                    include ./../sections/widget-instagram.pug
+
+    include ./../sections/footer.pug

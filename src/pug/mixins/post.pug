@@ -1,0 +1,14 @@
+mixin post(title, info, img, link) 
+    article.post
+        h2.post__title #{title}
+        .post__info #{info}
+        .post__img
+            img(src="img/posts-preview/" + img, alt="Austin DIY sriracha polaroid sartorial la croix")
+        .post__content
+            block 
+
+        .post__footer
+            .post__read-more                          
+                +button-read-more("read more", link)
+            .post__share-icons
+                include ./../sections/share-icons.pug
